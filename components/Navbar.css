@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(195, 195, 195);
+    padding: 0 5%;
+}
+nav div{
+    display: flex;
+}
+nav h3{
+    margin-right: 20px;
+}
