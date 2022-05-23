@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { getSession, signIn } from 'next-auth/react';
 
-export default function dashboard() {
+export default function Dashboard() {
     const [ loading, setLoading ] = useState(true);
     useEffect( ()=>{
         const securePage = async ()=>{
